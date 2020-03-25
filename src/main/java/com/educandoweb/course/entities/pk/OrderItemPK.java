@@ -9,7 +9,7 @@ import javax.persistence.ManyToOne;
 import com.educandoweb.course.entities.Order;
 import com.educandoweb.course.entities.Product;
 
-@Embeddable
+@Embeddable // diz que ela é uma classe auxiliar de chave primária composta
 public class OrderItemPK implements Serializable {
 	private static final long serialVersionUID = 1L;
 

@@ -24,7 +24,7 @@ import com.educandoweb.course.repositories.UserRepository;
 @Profile("test")
 public class TestConfig implements CommandLineRunner{
 	
-	@Autowired
+	@Autowired // injeção de dependência: Faz que que o userRepository tenha uma instanciação e que o Testconfig dependa dele
 	private UserRepository userRepository;
 	
 	@Autowired
